@@ -12,14 +12,14 @@
   padding: 20px;
 }
 .link{
-  border: 2px solid black;
+  border: 2px solid white;
   padding: 5px;
   border-radius: 10px;
   text-decoration: none;
-  color: black;
+  color: white;
   &:hover{
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
   }
 }
 
