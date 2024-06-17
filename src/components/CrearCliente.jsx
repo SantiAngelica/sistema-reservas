@@ -5,8 +5,10 @@ import { useForm } from 'react-hook-form'
 function CrearCliente() {
   const { register,  formState: { errors },  handleSubmit } = useForm()
   
-  const onSubmit = (data) => {
+  const onSubmit = (data) => {  
+
     console.log(data)
+    
   }
 
 
