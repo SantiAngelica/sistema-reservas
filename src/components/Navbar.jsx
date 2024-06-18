@@ -1,7 +1,7 @@
 import React from 'react'
 import IngresoMenu from './IngresoMenu'
 import Logout from './Logout'
-import './navbar.css'
+import '../navbar.css'
 
 
 

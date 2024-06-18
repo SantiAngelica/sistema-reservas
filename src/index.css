@@ -201,6 +201,19 @@ header .contenedor .contenedor-texto .texto h1{
 .logout{
   position: absolute;
   right: 20px;
+  color: #fff;
+  background-color: #000000;
+  padding: 10px;
+  border: 2px solid #a977de ;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+
+.logout:hover{
+  box-shadow: 0px 0px 30px 1px rgba(255, 57, 222, 0.3);
+  background-color: red;
+  border: 2px solid #fff ;
+  
 }
 
 .container {
@@ -209,6 +222,7 @@ header .contenedor .contenedor-texto .texto h1{
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  margin-top: 150px;
 }
 
 .form {
@@ -242,7 +256,7 @@ header .contenedor .contenedor-texto .texto h1{
 }
 
 .card:hover {
-  box-shadow: 0px 0px 30px 1px rgba(255, 57, 222, 0.3);
+  box-shadow: 0px 0px 30px 1px rgba(170, 0, 255, 0.4);
 }
 
 #heading {

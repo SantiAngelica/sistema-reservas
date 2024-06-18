@@ -1,4 +1,16 @@
 .linkNavBar{
     color: white;
+    padding: 0.8rem;
+    border-radius: 10px;
+    border: 2px solid #a977de;
+    background-color: rgb(0, 0, 0);
     text-decoration: none;
+    transition: all 0.2s;
+}
+
+
+.linkNavBar:hover{
+    box-shadow: 0px 0px 30px 1px rgba(144, 0, 255, 0.7);
+
+    
 }
