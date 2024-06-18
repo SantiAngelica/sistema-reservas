@@ -2,6 +2,8 @@ import React from 'react'
 import IngresoMenu from './IngresoMenu'
 import Logout from './Logout'
 
+
+
 function Navbar() {
   return (
     <div className='navbar'>
