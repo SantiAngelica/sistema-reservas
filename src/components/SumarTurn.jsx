@@ -1,11 +1,12 @@
 import React from 'react'
 import Navbar from './Navbar'
+import '../sumarturn.css'
 
 function SumarTurn() {
   return (
     <div>
       <Navbar/>
-      <h1>Sumar turno</h1>
+      <h2>Sumar turno</h2>
     </div>
   )
 }
