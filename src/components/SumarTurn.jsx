@@ -6,7 +6,12 @@ function SumarTurn() {
     <div>
       <Navbar/>
       <h1>Sumar turno</h1>
+     
+
+    
     </div>
+    
+
   )
 }
 
