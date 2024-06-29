@@ -1,5 +1,8 @@
 import React from 'react'
 import Navbar from './Navbar'
+import '../manejaringres.css'
+
+
 
 function ManejarIngresos() {
   return (
