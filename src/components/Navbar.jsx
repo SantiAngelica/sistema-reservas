@@ -14,6 +14,6 @@ function Navbar() {
         <Logout/>
     </div>
   )
-}
+}//CAMBIAR BOTONES NAVBAR POR LOS QUE VI EN GITHUB
 
 export default Navbar

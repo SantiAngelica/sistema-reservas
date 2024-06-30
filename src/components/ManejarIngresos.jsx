@@ -8,7 +8,12 @@ function ManejarIngresos() {
   return (
     <div>
       <Navbar/>
-      <h1>Manejar Ingresos</h1>
+
+      <div class="card">
+      <p><span>HOVER ME</span></p>
+      <p><span>HOVER ME</span></p>
+      <p><span>HOVER ME</span></p>
+</div>
     </div>
   )
 }
