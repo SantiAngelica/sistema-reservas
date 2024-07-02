@@ -1,6 +1,8 @@
 import React from 'react'
 import Navbar from './Navbar'
 import { useForm } from 'react-hook-form'
+import './styles/crearCli.module.css'
+
 
 function CrearCliente() {
   const { register,  formState: { errors },  handleSubmit } = useForm()
@@ -13,8 +15,7 @@ function CrearCliente() {
 
   return (
     <div>
-      <Navbar />
-
+      <Navbar />  
       <div className="container">
       <div className="card">
         <div className="card2">

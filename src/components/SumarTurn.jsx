@@ -1,12 +1,11 @@
 import React from 'react'
 import Navbar from './Navbar'
-import '../sumarturn.css'
+import './styles/sumarturn.module.css'
 
 function SumarTurn() {
   return (
     <div>
       <Navbar/>
-      
        <div className="container">
         <div className="card">
           <div className="card2">
