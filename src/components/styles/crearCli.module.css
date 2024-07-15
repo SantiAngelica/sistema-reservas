@@ -9,15 +9,11 @@
     border-radius: 25px;
     transition: 0.4s ease-in-out;
   }
-
-
-
-
-  .card {
+.card {
     background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
     border-radius: 22px;
     transition: all 0.3s;
-  }
+}
   
   .card2 {
     border-radius: 0;
@@ -126,3 +122,9 @@
     color: white;
   }
   
+  .heading {
+    text-align: center;
+    margin: 2em;
+    color: rgb(255, 255, 255);
+    font-size: 2.0em;
+  }

@@ -1,5 +1,8 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import classes from "./styles/Login.module.css"
+
+
 
 function Login({ setValido }) {
     const [nombre, setNombre] = useState("")
@@ -29,10 +32,10 @@ function Login({ setValido }) {
     }
 
     return (
-        <section className="main">
-            <div className="login-box">
+        <section className={classes.main}>
+            <div className={classes.loginbox}>
                 <form onSubmit={handleSubmit}>
-                    <div className="user-box">
+                    <div className={classes.userbox}>
                         <input type="text"
                             name=""
                             required=""
@@ -41,7 +44,7 @@ function Login({ setValido }) {
                         />
                         <label>Usuario</label>
                     </div>
-                    <div className="user-box">
+                    <div className={classes.userbox}>
                         <input type="password"
                             name=""
                             required=""

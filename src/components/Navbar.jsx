@@ -1,14 +1,14 @@
 import React from 'react'
 import IngresoMenu from './IngresoMenu'
 import Logout from './Logout'
-import './styles/ingresomenu.module.css'
+import classes from './styles/Navbar.module.css'
 
 
 
 
 function Navbar() {
   return (
-    <div className='navbar'>
+    <div className={classes.navbar}>
         <IngresoMenu tittle={'Crear cliente'} ruta={'/crearcliente'} />
         <IngresoMenu tittle={'Sumar turno'} ruta={'/sumarturno'} />
         <IngresoMenu tittle={'Manejar ingresos'} ruta={'/manejaringresos'} />

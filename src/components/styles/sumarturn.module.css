@@ -127,3 +127,9 @@
     color: white;
   }
    
+  .heading {
+    text-align: center;
+    margin: 2em;
+    color: rgb(255, 255, 255);
+    font-size: 2.0em;
+  }

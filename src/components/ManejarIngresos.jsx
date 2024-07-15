@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
-import './styles/manejaringres.module.css'
+import classes from './styles/Manejaringres.module.css'
 
 
 
@@ -8,7 +8,7 @@ function ManejarIngresos() {
   return (
     <div>
       <Navbar/>
-      <div class="card">
+      <div class={classes.card}>
       <p><span>HOVER ME</span></p>
       <p><span>HOVER ME</span></p>
       <p><span>HOVER ME</span></p>
